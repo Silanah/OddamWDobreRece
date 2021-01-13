@@ -1,0 +1,23 @@
+@import '../../settings/colors';
+
+.navbar {
+    cursor: pointer;
+    position: fixed;
+    font-size: 18px;
+
+    ul {
+        display: flex;
+
+        li {
+            margin-right: 15px;
+            color: $text-col;
+            padding: 10px;
+            border: 1px solid transparent;
+
+            &:hover {
+                border: 1px solid $text-col;
+                padding: 10px;
+            }
+        }
+    }
+}
