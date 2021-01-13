@@ -1,0 +1,75 @@
+@import '../../settings/colors';
+
+.homeHeader {
+    height: 100vh;
+    background-color: $main-col;
+
+    .nav_wrapper{
+        margin-right: 150px;
+        position: relative;
+        z-index: 1;
+
+        .topNavbar {
+            margin-top: 40px;
+            margin-bottom: 25px;
+            height: 40px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .bottomNavbar {
+            height: 45px;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    .heroContent{
+        display: flex;
+        justify-content: space-between;
+
+        .stuff_in_the_box {
+            position: absolute;
+            top: 0;
+            margin-left: -490px;
+            z-index: 0;
+            overflow: hidden;
+            justify-self: flex-start;
+        }
+
+        .heroTxt {
+            width: 750px;
+            margin-right: 266px;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: flex-end;
+            line-height: 60px;
+
+                h1 {
+                    font-size: 38px;
+                    color: $text-col;
+                    margin-bottom: 40px;
+                    margin-top: 150px;
+                }
+
+                .heroButtons {
+                    display: flex;
+                    justify-content: space-around;
+                    margin-top: 20px;
+
+                    a {
+                        max-height: 120px;
+                        max-width: 220px;
+                        padding: 30px;
+                        justify-content: center;
+                        border: 1px solid $text-col;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        font-size: 36px;
+                        color: $text-col;
+                    }
+                }
+        }
+    }
+}

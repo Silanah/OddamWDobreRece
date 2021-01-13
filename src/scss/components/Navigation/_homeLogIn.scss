@@ -1,0 +1,27 @@
+@import '../../settings/colors';
+
+.logIn {
+    cursor: pointer;
+    position: fixed;
+    font-size: 14px;
+
+    ul {
+        display: flex;
+
+        li {
+            margin-right: 15px;
+
+            a {
+                color: $text-col;
+                text-decoration: none;
+                padding: 10px;
+                border: 1px solid transparent;
+
+                &:hover{
+                    border: 1px solid $reg-border-col;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
