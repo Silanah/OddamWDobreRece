@@ -1,4 +1,72 @@
+@import '../../settings/colors';
+
 .home4steps {
-    height: 100vh;
-    background-color: yellow;
+    height: 100%;
+    background-color: $main-col;
+
+    .txt4steps {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+        h1 {
+            font-size: 38px;
+        }
+
+        .decoration_img {
+            margin-top: 80px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .images4steps {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding: 50px;
+        background-color: $about-bg-col;
+
+        img {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        hr {
+            display: block;
+            width: 30%;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid #000;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 0;
+        }
+    }
+
+    .giveAwayBtn {
+        margin-top: 20px;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        a {
+            max-height: 120px;
+            max-width: 220px;
+            padding: 30px;
+            justify-content: center;
+            border: 1px solid $text-col;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 36px;
+            color: $text-col;
+        }
+    }
 }

@@ -1,3 +1,5 @@
+@import '../../settings/colors';
+
 .homeThreeColumns {
     height: 500px;
     display: flex;
@@ -13,6 +15,7 @@
         h1 {
             padding: 15px;
             font-size: 90px;
+            color: $num-col;
         }
 
         h3 {
