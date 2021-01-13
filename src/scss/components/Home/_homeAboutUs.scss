@@ -1,4 +1,32 @@
+@import '../../settings/colors';
+
 .homeAboutUs {
-    height: 100vh;
-    background-color: gray;
+    background-color: $about-bg-col;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .aboutUsTxt {
+        text-align: center;
+        padding: 200px;
+        line-height: 40px;
+
+        h1 {
+            margin-bottom: 60px;
+            font-size: 38px;
+        }
+
+        .decoration_img {
+            margin-bottom: 60px;
+        }
+
+        p {
+            margin-bottom: 60px;
+        }
+
+        .signature_container {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
 }
