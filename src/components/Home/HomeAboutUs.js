@@ -13,7 +13,7 @@ class HomeAboutUs extends Component {
                 <div className='aboutUsTxt'>
                     <h1>O nas</h1>
                     <img className='decoration_img' src={ Decoration } alt='decoration_image' />
-                    <p>Nori grape. silver beet broccoli kombu beet greens fava bean potato quandong celery.
+                    <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery.
                         Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.
                     </p>
                     <div className='signature_container'>
