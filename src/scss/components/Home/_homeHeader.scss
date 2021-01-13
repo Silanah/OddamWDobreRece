@@ -59,8 +59,8 @@
                     margin-top: 20px;
 
                     a {
-                        height: 120px;
-                        width: 220px;
+                        max-height: 120px;
+                        max-width: 220px;
                         padding: 30px;
                         justify-content: center;
                         border: 1px solid $text-col;
