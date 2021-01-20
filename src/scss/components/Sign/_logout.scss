@@ -1,0 +1,33 @@
+.logout-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 100px;
+
+    h1 {
+        color: #3c3c3c;
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    img {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    button {
+        min-width: 150px;
+        min-height: auto;
+        padding: 20px;
+  
+        text-align: center;
+        line-height: 30px;
+        font-size: 18px;
+        color: #3c3c3c;
+        margin: 30px 120px 0;
+        border: 0.75px solid #3c3c3c;
+        background-color: #ffffff;
+    }
+}

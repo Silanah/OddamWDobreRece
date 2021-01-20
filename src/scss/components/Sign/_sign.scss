@@ -1,0 +1,105 @@
+.log-in-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 100px;
+  
+    h1 {
+      color: #3c3c3c;
+      font-size: 40px;
+      font-weight: 400;
+    }
+  
+    img {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+  
+    .form-sign-in {
+      background-color: #f0f1f1;
+      height: auto;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .form-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        min-width: 300px;
+        max-width: 400px;
+
+        .inputs-with-labels {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          padding: 25px;
+          line-height: 50px;
+        }
+
+        label {
+          font-weight: bold;
+          font-size: 16px;
+          color: #3c3c3c;
+        }
+
+        input {
+          font-size: 16px;
+          background-color: #f0f1f1;
+          color: #3c3c3c;
+  
+          margin-top: 10px;
+          border-top-style: hidden;
+          border-right-style: hidden;
+          border-left-style: hidden;
+          margin-bottom: 20px;
+          outline: none;
+          width: 200px;
+  
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+        }
+  
+        .password-input,
+        .email-input {
+          .errorMsg {
+            color: red;
+            font-weight: bold;
+            font-size: 12px;
+            margin-top: 3px;
+          }
+        }
+      }
+    }
+  
+    .buttons {
+      background-color: #fff;
+      display: flex;
+      
+      button {
+        min-width: 150px;
+        min-height: auto;
+        padding: 20px;
+        text-decoration: none;
+  
+        text-align: center;
+        line-height: 30px;
+        font-size: 18px;
+        color: #3c3c3c;
+        margin: 30px 120px 0;
+        border: 0.75px solid transparent;
+        background-color: #ffffff;
+  
+        &:hover {
+          border: 0.75px solid #3c3c3c;
+        }
+      }
+    }
+  }

@@ -21,9 +21,7 @@ class HomeHeader extends Component {
                     </div>
                 </div>
                 <div className='heroContent'>
-                    <div>
-                        <img className='stuff_in_the_box' src={ HomeHeroImage } alt='stuff_in_the_box' />
-                    </div>
+        
                     <div className='heroTxt'>
                         <div className='heroInnerText'>
                             <h1>Zacznij pomagać!<br />Oddaj niechciane rzeczy w zaufane ręce</h1>
