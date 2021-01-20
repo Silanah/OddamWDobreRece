@@ -1,0 +1,19 @@
+.nav_wrapper{
+  margin-right: 150px;
+  position: relative;
+  z-index: 1;
+
+  .topNavbar {
+      margin-top: 40px;
+      margin-bottom: 25px;
+      height: 40px;
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .bottomNavbar {
+      height: 45px;
+      display: flex;
+      justify-content: flex-end;
+  }
+}
