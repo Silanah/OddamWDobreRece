@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 import '../../scss/components/Navigation/_homeNavbar.scss';
 
+const options = {
+    activeClass:'active',
+    spy:true,
+    smooth:true,
+    offset:0,
+    duration:500
+}
 class HomeNavbar extends Component {
     state = {};
     render() {
@@ -9,57 +16,27 @@ class HomeNavbar extends Component {
             <div className='navbar'>
                 <ul>
                     <li>
-                        <Link
-                        activeClass='active'
-                        to='homeHeader'
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}>
+                        <Link to='homeHeader' {...options}>
                             Start
                         </Link>
                     </li>
                     <li>
-                        <Link
-                        activeClass='active'
-                        to='home4steps'
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}>
+                        <Link to='home4steps' {...options}>
                             O co chodzi?
                         </Link>
                     </li>
                     <li>
-                        <Link
-                        activeClass='active'
-                        to='homeAboutUs'
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}>
+                        <Link to='homeAboutUs' {...options}>
                             O nas
                         </Link>
                     </li>
                     <li>
-                        <Link
-                        activeClass='active'
-                        to='homeWhoWeHelp'
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}>
+                        <Link to='homeWhoWeHelp' {...options}>
                             Fundacja i organizacje
                         </Link>
                     </li>
                     <li>
-                        <Link
-                        activeClass='active'
-                        to='homeContactForm'
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}>
+                        <Link to='homeContactForm' {...options}>
                             Kontakt
                         </Link>
                     </li>
