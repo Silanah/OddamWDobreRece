@@ -12,16 +12,7 @@ class HomeHeader extends Component {
     render() {
         return(
             <div className='homeHeader' id='homeHeader'>
-                <div className='nav_wrapper'>
-                    <div className='topNavbar'>
-                        <HomeLogIn />
-                    </div>
-                    <div className='bottomNavbar'>
-                        <HomeNavbar />
-                    </div>
-                </div>
                 <div className='heroContent'>
-        
                     <div className='heroTxt'>
                         <div className='heroInnerText'>
                             <h1>Zacznij pomagać!<br />Oddaj niechciane rzeczy w zaufane ręce</h1>
