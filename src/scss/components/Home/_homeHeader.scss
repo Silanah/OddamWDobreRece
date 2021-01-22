@@ -4,18 +4,11 @@
     height: 1000px;
     background: $main-col url(../../../assets/Home-Hero-Image.jpg);
     background-repeat: no-repeat;
+    background-size: auto;
 
     .heroContent{
         display: flex;
         justify-content: flex-end;
-
-        .stuff_in_the_box {
-            position: absolute;
-            top: 0;
-            z-index: 0;
-            overflow: hidden;
-            justify-self: flex-start;
-        }
 
         .heroTxt {
             width: 750px;

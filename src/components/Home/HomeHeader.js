@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../../scss/components/Home/_homeHeader.scss';
-import HomeLogIn from '../Navigation/HomeLogIn';
-import HomeNavbar from '../Navigation/HomeNavbar';
 
-import HomeHeroImage from '../../assets/Home-Hero-Image.jpg';
 import Decoration from '../../assets/Decoration.svg';
 
 class HomeHeader extends Component {

@@ -8,7 +8,7 @@ const SignIn = () => {
     <section className="log-in-container">
       <h1>Zaloguj się</h1>
       <img className='decoration_img' src={ Decoration } alt='decoration_image' />
-    
+
       <div className="form-sign-in">
         <form className="form-layout">
         <div className="inputs-with-labels">
