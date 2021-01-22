@@ -2,32 +2,117 @@
 
 .homeContactForm {
     width: 100%;
-    height: 1000px;
-    position: relative;
-    padding: 50px;
+    height: 100vh;
 
-    .contactForm{
+    background: $main-col url(../../../assets/Background-Contact-Form.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+
+    display: flex;
+    .wrapper {
         width: 100%;
-        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end
+    }
+    .contactBackground {
         position: absolute;
         top: 0;
+        right: 0;
+        bottom: 0;
         left: 0;
+        background-color: white;
+        opacity: 0.75;
         z-index: 0;
+    }
 
+    .contactFormWrapper {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        z-index: 1;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        line-height: 60px;
 
-        background: $main-col url(../../../assets/Background-Contact-Form.jpg) no-repeat;
-        background-size: cover;
-        background-position: center;
+        .contactFormTxt {
+            width: 1200px;
 
-        h1 {
-            color: black;
-            font-size: 20px;
-            z-index: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                margin-bottom: 40px;
+                color: black;
+                font-size: 38px;
+            }
         }
 
+        .contactForm {
+            display: flex;
+            flex-direction: column;
+
+            margin-top: 60px;
+
+            .labelsLayout {
+                display: flex;
+                flex-direction: column;
+
+                .nameEmail {
+                    display: flex;
+
+                    .name_input {
+                        margin-right: 30px;
+                    }
+                }
+
+                label {
+                    font-weight: bold;
+                    font-size: 16px;
+                    color: #3c3c3c;
+                }
+
+                input {
+                    font-size: 16px;
+                    background-color: #f0f1f1;
+                    color: #3c3c3c;
+
+                    margin-top: 10px;
+                    border-top-style: hidden;
+                    border-right-style: hidden;
+                    border-left-style: hidden;
+                    margin-bottom: 20px;
+                    outline: none;
+                    width: 200px;
+
+                    display: flex;
+                    flex-direction: column;
+                }
+
+            }
+
+            .sendButton {
+                display: flex;
+
+                button {
+                    min-width: 150px;
+                    min-height: auto;
+                    padding: 20px;
+                    margin: 30px 120px 0;
+                    text-align: center;
+                    cursor: pointer;
+
+                    border: 0.75px solid #3c3c3c;
+                    line-height: 30px;
+                    font-size: 18px;
+                    color: #3c3c3c;
+                    background-color: #ffffff;
+                }
+            }
+        }
     }
 }
